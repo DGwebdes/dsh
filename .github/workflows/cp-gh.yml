@@ -7,7 +7,7 @@ on:
 
 env:
   TARGET_REPO_OWNER: "DGwebdes"
-  TARGET_REPO_NAME: "CP-deploy"
+  TARGET_REPO_NAME: "cp-gh-artifact"
   TARGET_BRANCH: "main"
 
 
