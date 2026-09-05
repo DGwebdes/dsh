@@ -13,7 +13,7 @@ int dsh_exit(char **args);
 
 char *builtin_str[] = {
 	"cd",
-	"help"
+	"help",
 	"exit"
 };
 
