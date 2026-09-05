@@ -72,7 +72,9 @@ char *dsh_read_line(void) {
 	while(1) {
 		character = getchar();
 
-		if (character == EOF || character == '\n') {
+		if (character == EOF) {
+			exit(EXIT_SUCCESS);
+		} else if (character == '\n') {
 			buffer[position] = '\0';
 			return buffer;
 		} else {
